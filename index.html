@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Book Rating page</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="/">BOOKS</a>
+           <a href="#" class="ham">
+               <span class="line"></span>
+               <span class="line"></span>
+               <span class="line"></span>
+            </a>
+        </nav>
+    </header>
+   
+    <div class="picture">
+    <h1>Books Rating Form</h1>
+    
+    <div class="container">
+        
+        <div class="box">
+
+            <h2>If you don’t like to read, you haven’t found the right book.</h2>
+            <form>
+
+                <div class="rows">
+                    <div class="labels">
+                        <label for="username">Name:</label>
+                    </div>
+                    <div class="fields">
+                        <input class="size" type="text" name="username" id="username">
+                    </div>
+                </div>
+                
+                <div class="rows">
+                    <div class="labels">
+                        <label for="dob">Date of Birth:</label>
+                    </div>
+                    <div class="fields">
+                        <input class="size" type="text" name="birthday" id="dob">
+                    </div>
+                </div>
+                
+                <div class="rows">
+                    <div class="labels">
+                        <label for="books">Nmae of the Book:</label>
+                    </div>
+                    <div class="fields">
+                        <input class="size" type="text" name="book" id="books">
+                    </div>
+                </div>
+                
+                <div class="rows">
+                    <div class="labels">
+                        <label for="scale">On a scale of 1-10 how good was it?</label>
+                    </div>
+                    <div class="fields">
+                        <select name="number" id="scale">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="rows">
+                    <div class="labels">
+                        <label>Would you re-read it?</label>
+                    </div>
+                    <div class="fields">
+                        <ul>
+                            <li><input type="radio" name="re-read" class="reread">Yes</li>
+                            <li><input type="radio" name="re-read" class="reread">No</li>
+                
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="rows">
+                    <div class="labels">
+                        <label>What is the genre of the Book?</label>
+                    </div>
+                    <div class="fields">
+                        <ul>
+                
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Action and Adventure</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Mystery/Thriller</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Fanatsy</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Horror</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Young adult</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">New Adult</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Humour</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Romance</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Science Fiction (Sci-Fi)</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Classics</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">Self-Help</li>
+                            <li class="check"><input type="checkbox" name="genres" class="genre">LGBTQ+</li>
+                
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="rows">
+                    <div class="labels">
+                        <label for="experience">Please describe your experience:</label>
+                    </div>
+                    <div class="fields">
+                        <textarea name="" id="experience" cols="20" rows="2"></textarea>
+                    </div>
+                </div>
+
+                <div class="submit">
+                        <button id="submit" type="submit">Submit</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+</html>
